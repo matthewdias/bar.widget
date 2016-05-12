@@ -1,6 +1,6 @@
 command: "/Users/Matthew/Library/Application\\ Support/Übersicht/widgets/bar.widget/gpmdpbar"
 
-refreshFrequency: 1000 # ms
+refreshFrequency: 2000 # ms
 
 render: (output) ->
   """
