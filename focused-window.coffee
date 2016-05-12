@@ -1,11 +1,11 @@
-command: "echo $(/usr/local/bin/kwmc query space active tag)"
+command: "/Users/Matthew/.kwm/scripts/bar"
 
 refreshFrequency: 1000 # ms
 
 render: (output) ->
   """
   <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
-  <div class="foc"
+  <div class="foc">
     <span></span>
     <span class="icon"></span>
   </div>
@@ -19,12 +19,12 @@ update: (output, el) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #d5c4a1
-  font: 10px Input
+  color: #263239
+  font: 13px Roboto Mono
   height: 16px
   left: 10px
   overflow: hidden
   text-overflow: ellipsis
-  top: 6px
+  bottom: 4px
   width: auto
 """

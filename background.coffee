@@ -3,11 +3,12 @@ refreshFrequency: false
 render: (output) ->
   ""
 
+# background-color: #424242
+
 style: """
-  top: 0
+  bottom: 0
   left: 0
-  height: 25px
+  height: 24px
   width: 100%
-  background-color: #202020
   z-index: -1
 """
