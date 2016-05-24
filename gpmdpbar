@@ -1,4 +1,0 @@
-#!/bin/bash
-python -c "import json;print json.loads(open('/Users/Matthew/Library/Application Support/Google Play Music Desktop Player/json_store/playback.json', 'r').read())['song']['title']"
-echo '-'
-python -c "import json;print json.loads(open('/Users/Matthew/Library/Application Support/Google Play Music Desktop Player/json_store/playback.json', 'r').read())['song']['artist']"

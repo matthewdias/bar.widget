@@ -1,19 +1,19 @@
-command: "/Users/Matthew/Library/Application\\ Support/Übersicht/widgets/bar.widget/gpmdpbar"
+command: "python /Users/Matthew/Library/Application\\ Support/Übersicht/widgets/bar.widget/nowplaying.py"
 
-refreshFrequency: 2000 # ms
+refreshFrequency: 1000 # ms
 
 render: (output) ->
   """
   <link rel="stylesheet" href="./assets/font-awesome/css/font-awesome.min.css" />
-  <div class="gpm">
+  <div class="npl">
     <span></span>
     <span class="icon"></span>
   </div>
   """
 
 update: (output, el) ->
-    $(".gpm span:first-child", el).text("  #{output}")
-    $icon = $(".gpm span.icon", el)
+    $(".npl span:first-child", el).text("  #{output}")
+    $icon = $(".npl span.icon", el)
     $icon.removeClass().addClass("icon")
     $icon.addClass("fa fa-bars")
 
