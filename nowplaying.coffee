@@ -21,7 +21,6 @@ style: """
   -webkit-font-smoothing: antialiased
   color: #263239
   font: 13px Roboto Mono
-  height: 16px
   right: 10px
   overflow: hidden
   text-overflow: ellipsis
