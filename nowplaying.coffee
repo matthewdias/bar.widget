@@ -20,10 +20,11 @@ update: (output, el) ->
 style: """
   -webkit-font-smoothing: antialiased
   color: #263239
-  font: 13px Roboto Mono
+  font: 13px SF Mono
   right: 10px
   overflow: hidden
   text-overflow: ellipsis
   bottom: 4px
   width: auto
+  max-width: 86.5%
 """

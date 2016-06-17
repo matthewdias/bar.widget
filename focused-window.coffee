@@ -20,7 +20,7 @@ update: (output, el) ->
 style: """
   -webkit-font-smoothing: antialiased
   color: #263239
-  font: 13px Roboto Mono
+  font: 13px SF Mono
   left: 10px
   overflow: hidden
   text-overflow: ellipsis
