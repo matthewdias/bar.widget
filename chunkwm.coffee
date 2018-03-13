@@ -1,4 +1,4 @@
-command: "/Users/Matthew/.kwm/scripts/bar"
+command: "/Users/Matthew/.chunkwm_scripts/chwm-bar"
 
 refreshFrequency: 1000 # ms
 
