@@ -21,9 +21,8 @@ sys.stdout = UTF8Writer(sys.stdout)
 if gpm['song']['title']:
     print "%s - %s" % (unicode(gpm['song']['title']), unicode(gpm['song']['artist']))
 
-elif is_runnning("iTunes"):
-	itunes = os.system("osascript -e 'tell application \"iTunes\" to name of current track & \" - \" & artist of current track'")
-	# itunes = os.system("osascript -e \'tell application \"iTunes\" to if player state is playing then name of current track & \" - \" & artist of current track'")
+# elif is_runnning("iTunes"):
+# 	itunes = os.system("osascript -e 'tell application \"iTunes\" to name of current track & \" - \" & artist of current track'")
 
 elif is_runnning("Spotify"):
     spotify = os.system("osascript -e 'tell application \"Spotify\" to name of current track & \" - \" & artist of current track'")
